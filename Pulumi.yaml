@@ -5,6 +5,8 @@ runtime:
     packagemanager: npm
 description: A minimal AWS TypeScript Pulumi program
 config:
+  aws-native:region: us-east-1
+  aws:region: us-east-1
   pulumi:tags:
     value:
       pulumi:template: aws-typescript
